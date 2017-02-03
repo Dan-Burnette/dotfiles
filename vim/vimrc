@@ -1,0 +1,2 @@
+" Use the space key as our leader.
+let mapleader = "\<Space>"
