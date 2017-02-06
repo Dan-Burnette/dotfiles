@@ -214,7 +214,6 @@ if filereadable($HOME . "/.vimrc.local")
 endif
 
 "My Plugins and their configurations  =========
-Plugin 'tpope/vim-rails'
 
 Plugin 'ctrlpvim/ctrlp.vim'
 
