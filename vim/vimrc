@@ -226,6 +226,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'pangloss/vim-javascript'
+Plugin 'mxw/vim-jsx'
 
 
 
