@@ -229,7 +229,7 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
-
-
+Plugin 'flazz/vim-colorschemes'
+colorscheme molokai
 
 
