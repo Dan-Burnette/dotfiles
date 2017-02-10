@@ -43,21 +43,26 @@ filetype plugin indent on    " required
 
 " Use the space key as our leader.
 let mapleader = "\<Space>"
-
 " Split edit your vimrc. Type space, v, r in sequence to trigger
 nmap <leader>vr :sp $MYVIMRC<cr>
-
 "Source (reload) your vimrc. Type space, s, o in sequence to trigger
 nmap <leader>so :source $MYVIMRC<cr>
-
+"turn on paste, open new line, start inserting at current level of indentation
+nmap <leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr> 
+"turn off hlsearch
+nmap <leader>h :nohlsearch<cr>
 "Map exit insert mode with space + x
 imap <leader>x <esc>
+
+
+
+
+
+
 
 " Make up/down work as you'd expect in wrapped lines 
 nmap k gk
 nmap j gj
-
-"-------- Begin Thoughbot vimrc defaults ------------------------------
 
 set backspace=2   " Backspace deletes like most programs in insert mode
 set nobackup
@@ -69,6 +74,11 @@ set showcmd       " display incomplete commands
 set incsearch     " do incremental searching
 set laststatus=2  " Always display the status line
 set autowrite     " Automatically :write before running commands
+set hlsearch      " Highlight searches
+set ignorecase    " case insensitive pattern matching
+set smartcase     " Override ignorecase is pattern contains upcase
+set winheight=5   " window height never goes below 5 lines
+set winminheight=5
 
 " Switch syntax highlighting on, when the terminal has colors
 " Also switch on highlighting the last used search pattern.
@@ -142,6 +152,7 @@ set textwidth=80
 set colorcolumn=+1
 
 " Numbers
+set relativenumber
 set number
 set numberwidth=5
 
@@ -232,4 +243,4 @@ Plugin 'mxw/vim-jsx'
 Plugin 'flazz/vim-colorschemes'
 colorscheme molokai
 
-
+Plugin 'roman/golden-ratio'
