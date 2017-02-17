@@ -237,6 +237,8 @@ Plugin 'tpope/vim-repeat'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
+Plugin 'tpope/vim-bundler'
+
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 
@@ -245,3 +247,4 @@ colorscheme molokai
 
 Plugin 'roman/golden-ratio'
 Plugin 'skwp/greplace.vim'
+
