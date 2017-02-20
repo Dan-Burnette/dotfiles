@@ -244,3 +244,5 @@ Plugin 'flazz/vim-colorschemes'
 colorscheme molokai
 
 Plugin 'roman/golden-ratio'
+
+Plugin 'othree/html5.vim'
