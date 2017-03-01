@@ -249,7 +249,7 @@ colorscheme molokai
 Plugin 'roman/golden-ratio'
 Plugin 'othree/html5.vim'
 Plugin 'skwp/greplace.vim'
-
+Plugin 'Chiel92/vim-autoformat'
 
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256
