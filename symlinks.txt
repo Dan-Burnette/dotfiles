@@ -1,2 +1,3 @@
 ln -s ~/code/dotfiles/vim/vimrc ~/.vimrc
 ln -s ~/code/dotfiles/agignore ~/.agignore
+ln -s ~/code/dotfiles/.tmux.conf ~/.tmux.conf
