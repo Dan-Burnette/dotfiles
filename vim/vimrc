@@ -242,6 +242,7 @@ Plugin 'tpope/vim-rake'
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
 Plugin 'vim-ruby/vim-ruby'
+Plugin 'chaoren/vim-wordmotion'
 
 Plugin 'flazz/vim-colorschemes'
 colorscheme molokai
