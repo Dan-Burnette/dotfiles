@@ -239,9 +239,11 @@ Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rake'
+Plugin 'vim-ruby/vim-ruby'
+
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'vim-ruby/vim-ruby'
+
 
 Plugin 'flazz/vim-colorschemes'
 colorscheme molokai
