@@ -240,9 +240,11 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/vim-eunuch'
+Plugin 'vim-ruby/vim-ruby'
+
 Plugin 'pangloss/vim-javascript'
 Plugin 'mxw/vim-jsx'
-Plugin 'vim-ruby/vim-ruby'
+
 Plugin 'chaoren/vim-wordmotion'
 
 Plugin 'flazz/vim-colorschemes'
