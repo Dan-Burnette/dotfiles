@@ -239,6 +239,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rake'
+Plugin 'tpope/tpope-vim-abolish' 
 Plugin 'vim-ruby/vim-ruby'
 
 Plugin 'pangloss/vim-javascript'
