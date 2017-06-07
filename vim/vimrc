@@ -240,6 +240,7 @@ Plugin 'thoughtbot/vim-rspec'
 Plugin 'tpope/vim-bundler'
 Plugin 'tpope/vim-rake'
 Plugin 'tpope/tpope-vim-abolish' 
+Plugin 'tpope/vim-eunuch'
 Plugin 'vim-ruby/vim-ruby'
 
 Plugin 'pangloss/vim-javascript'
