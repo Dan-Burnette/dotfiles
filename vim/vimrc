@@ -226,6 +226,9 @@ endif
 
 "My Plugins and their configurations  =========
 
+Plugin 'scrooloose/nerdtree'
+map <leader>n :NERDTreeToggle<CR>
+
 Plugin 'ctrlpvim/ctrlp.vim'
 
 " Make CtrlP use ag for listing the files. Way faster and no useless files.
