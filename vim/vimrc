@@ -258,6 +258,7 @@ Plugin 'roman/golden-ratio'
 Plugin 'othree/html5.vim'
 Plugin 'skwp/greplace.vim'
 Plugin 'Chiel92/vim-autoformat'
+Plugin 'prettier/vim-prettier'
 
 Plugin 'wakatime/vim-wakatime'
 
