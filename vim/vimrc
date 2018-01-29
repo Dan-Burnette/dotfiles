@@ -53,9 +53,10 @@ nmap <leader>p :set paste<CR>o<esc>"*]p:set nopaste<cr>
 nmap <leader>h :nohlsearch<cr>
 "Map exit insert mode with space + x
 imap <leader>x <esc>
+"Run prettier on save"
+autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md PrettierAsync
 
-
-
+"------------My Customizations ------------------------------------------------
 
 
 
@@ -247,6 +248,8 @@ Plugin 'tpope/vim-eunuch'
 Plugin 'vim-ruby/vim-ruby'
 
 Plugin 'pangloss/vim-javascript'
+"  Fix JS template literal syntax highlighting issue in JSX
+let g:jsx_ext_required = 0
 Plugin 'mxw/vim-jsx'
 
 Plugin 'chaoren/vim-wordmotion'
