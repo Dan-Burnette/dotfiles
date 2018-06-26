@@ -1,3 +1,6 @@
-bxr='bundle exec rake'
-bxspec='bundle exec rspec'
+alias bxr='bundle exec rake'
+alias bxspec='bundle exec rspec'
+alias ga='git add' 
+alias gc='git commit -m'
+alias gp='git push'
 
